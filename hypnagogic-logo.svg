@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 514" role="img" aria-labelledby="title">
+  <title id="title">Hypnagogic logo</title>
+  <defs>
+    <linearGradient id="logo-gradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8b57f4"/>
+      <stop offset="1" stop-color="#8855f2"/>
+    </linearGradient>
+    <mask id="logo-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="512" height="514">
+      <rect width="512" height="514" fill="black"/>
+      <circle cx="255.5" cy="256.1" r="255.7" fill="white"/>
+      <circle cx="437.5" cy="467.9" r="137.3" fill="black"/>
+    </mask>
+  </defs>
+  <rect width="512" height="514" fill="url(#logo-gradient)" mask="url(#logo-mask)"/>
+</svg>
