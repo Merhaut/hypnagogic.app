@@ -45,19 +45,11 @@ body {
   padding-bottom: 3.25rem;
 }
 
-.app-mark {
-  display: grid;
-  place-items: center;
-  width: 4rem;
-  height: 4rem;
+.app-logo {
+  display: block;
+  width: 4.5rem;
+  height: auto;
   margin: 0 auto 2.5rem;
-  border: 1px solid var(--line);
-  border-radius: 1.15rem;
-  background: var(--surface);
-  color: var(--accent);
-  font-size: 1.8rem;
-  font-weight: 700;
-  letter-spacing: -0.04em;
 }
 
 .hero-copy {
